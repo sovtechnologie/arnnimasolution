@@ -91,9 +91,8 @@ h6 {
 
 .sitelogo{
 
-   max-width: 100px;
+   max-width: 170px;
    width: 100%;
-  border-radius: 3px;
 }
 
 .sitelogo img {
@@ -101,7 +100,6 @@ h6 {
   height: 100%;
   width: 100%;
   object-fit: contain;
-  border-radius: 6px;
 }
 .slider_click_here a button{
 
@@ -891,6 +889,10 @@ section,
 @media (max-width: 480px) {
   .hero .main-heading h1 {
     font-size: 2.5rem;
+  }
+  .header .logo img{
+
+    max-height: 30px;
   }
 }
 
@@ -2575,6 +2577,7 @@ section,
 .faq .faq-container .faq-item .faq-content p {
   margin-bottom: 0;
   overflow: hidden;
+  color: #272727;
 }
 
 .faq .faq-container .faq-item .faq-toggle {
